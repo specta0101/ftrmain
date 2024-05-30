@@ -150,7 +150,10 @@ function submit_login(e)
 //-->
 </script>
 
-      <form id="contactform" action="https://formsubmit.io/send/kessler081@gmail.com" method="POST">
+      <form id="contactform" action="mailto:kessler081@gmail.com" method="post" enctype="text/plain">
+<!-- form inputs go here -->
+<input type="submit" value="Submit">
+</form>
         <input type="hidden" name="_next" value="#">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
